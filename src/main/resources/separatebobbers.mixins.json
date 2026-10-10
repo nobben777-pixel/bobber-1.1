@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.separatebobbers.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FishingRodItemMixin",
+    "FishingBobberPersistenceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
